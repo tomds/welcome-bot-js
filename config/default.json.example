@@ -1,0 +1,15 @@
+{
+    "discordToken": "",
+    "homeServer": "",
+    "owner": "",
+    "welcomeChannel": "",
+    "mainChannel": "",
+    "deleteMessages": false,
+    "messageDeleteDelay": 10000,
+    "welcomeDmDelay": 180000,
+    "notifyFailures": true,
+    "debug": false,
+    "modsRoleName": "Mods",
+    "roleFailText": "Sorry, I couldn't add your role :disappointed:. Please see if one of the mods can help.",
+    "dontUnderstandText": "Sorry, I don't understand. Please type the name of the role you want (or `help` if you're stuck)."
+}

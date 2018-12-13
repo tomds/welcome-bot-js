@@ -1,0 +1,10 @@
+{
+  "red": {
+    "name": "Red Team",
+    "successText": "OK, you are now on the red team!"
+  },
+  "blue": {
+    "name": "Blue Team",
+    "successText": "OK, you are now on the blue team!"
+  }
+}
