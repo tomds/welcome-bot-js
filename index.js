@@ -217,3 +217,9 @@ async function sendHelpMessage(messageOrMember) {
 }
 
 client.login(config.get('discordToken'));
+
+// For heroku compatibility
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('O hai');
+}).listen(process.env.PORT);
